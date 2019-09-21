@@ -1,10 +1,11 @@
 const video = {
+    director: 'abcd',
     title: "title",
     play: function() {
-        console.log(this);
+        console.log(this.title);
     },
     stop: setTimeout(function() {
-       console.log(this); 
+       console.log(this.director); 
     }),
 };
 
