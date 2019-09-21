@@ -4,9 +4,9 @@ const video = {
     play: function() {
         console.log(this.title);
     },
-    stop: setTimeout(function() {
+    stop: setTimeout(() => {
        alert(this.director); 
-    },3000),
+    },2000),
 };
 
 video.play();
