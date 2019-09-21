@@ -6,7 +6,7 @@ const video = {
     },
     stop: setTimeout(() => {
        alert(this.director); 
-    },3000),
+    },5000),
 };
 
 video.play();
