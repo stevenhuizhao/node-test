@@ -5,8 +5,8 @@ const video = {
         console.log(this.title);
     },
     stop: setTimeout(function() {
-       console.log(this.director); 
-    }),
+       alert(this.director); 
+    },3000),
 };
 
 video.play();
